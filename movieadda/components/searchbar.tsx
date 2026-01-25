@@ -10,10 +10,6 @@ interface SearchBarProps{
 
 
 const SearchBar = ({onPress, placeHolder}:SearchBarProps) => {
-
-
-
-
   return (
     <View className='flex-row items-center bg-dark-200 rounded-full px-5 py-4 '>
      <Image source={icons.search} className='size-5 ' resizeMode='contain' tintColor={'#AB8BFF'}></Image>
@@ -23,7 +19,7 @@ const SearchBar = ({onPress, placeHolder}:SearchBarProps) => {
         onChange={()=>{}}
         placeholderTextColor={'#A8B5DB'}
         className='flex-1 ml-2 text-white'
-     />
+     />                                 
     </View>
   )
 }
